@@ -1,0 +1,2 @@
+# shine-
+Educational programming BCGCW
