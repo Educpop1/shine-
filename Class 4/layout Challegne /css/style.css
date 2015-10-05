@@ -1,0 +1,32 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.clearfix {
+	clear: both;
+	overflow: auto;
+}
+
+header { 
+	background:red;
+}
+
+div {
+	height: 200px;
+}
+
+article {
+	background-color: yellow;
+	float: left;
+	width: 70%;
+}
+
+aside {
+	background: lightblue;
+	float: right;
+	width: 30%;
+}
+
+footer {
+	background: green;
+}

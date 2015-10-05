@@ -1,0 +1,24 @@
+h1{ color: red;
+}
+
+div{ color: blue;
+}
+
+#notification{
+
+	background: yellow;
+	padding: 10px;
+}
+.message{
+
+background: gray;
+padding: 10px;
+border: 1px solid black;
+}
+#plural{
+background: blue;
+padding: 10px;
+}
+.error {
+background: red;
+}

@@ -17,6 +17,7 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -49,9 +50,8 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     background-color: white;
 }
 
 
@@ -59,21 +59,198 @@ body {
 /* LAYOUT
 /*******************************************/
 
+
+
+
 /* Center the container */
 #container {
   width: 100%;
-  margin: auto;
-  height: 500px;
+}
+
+/* header*/
+ header {   
+  border-top: 20px;
+  background: url(../images/header_bg.jpg) no-repeat center center rgb(134,141,157);
+  background-size: cover;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-bottom: 130px;
+}
+
+ article {
+  width: 600px;
+  height: 350px;    
+  padding: 10px;
+  background-color: #f0efef
+  margin: 30px;
+  font-size: 20px;
+  padding-left: 45px; 
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+
+header h2 
+{
+ color: white;   
+ font-weight: 600;  
+font-size: 20px;
+text-align: center;
+}
+
+
+ h3{
+background-color: #f9e42e;
+text-align: center;
+margin: auto;
+margin-top: 40px;
+font-size: 15px;
+width: 100px;
+height: 25px;
+}
+
+h4{ background-color: #f0efef
+  }
+
+h1,h2,h3,h4,p {
+
+ margin-bottom: px;
+  
+}
+
+.button{
+padding-top: 5px;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 5px;
+border-radius: 5px;
+font-weight: 800;
+font-size: 14px;
+text-decoration: none;
+background-color: #f9e42e;
+color: #033048;
+display: block;
+width: 15%;
+margin:auto;
+text-align: center;
+}
+
+.sts{
+color: white;
+background-color: #033048;
+font-size: 12px;
+position: relative;
+top:20px;
+left: 30px;
 
 }
 
-header {
+.color{
+background-color: yellow;
+padding-bottom: 40px;
+}
+
+
+
+article {
+
+  background-color: white;
+  margin: 30px;
+  font-size: 20px;
+  padding-left: 45px; 
+  padding-bottom: 
 
 }
 
-footer {
+h2{
+  font-size: 20px;
+  font-weight: 600;
+} 
+
+p {
+
+ font-size: 20px;
+ font-weight: 300; 
+}
+
+aside {
+  background: url(../images/testimonial_bg.jpg) no-repeat center center rgb(134,141,157);
+  background-size: cover;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-bottom: 80px;
+  color: white;
+}
+
+
+
+
+footer{
+background: url(../images/testimonial_bg.jpg) no-repeat center center rgb(134,141,157);
+background-size: cover;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-bottom: 140px;
+  color: white 
+}
+
+.logo{
+font-size: 24px; 
+font-weight: 600px;
+display:block;
+right: 200px;
+width: 15px;
+padding-left: 550px;
+}
+
+
+.footnote{
+display: block;
+color: white;
+}
+
+
+em{
+font-size: 15px;
 
 }
+
+.center {
+    margin: auto;
+    width: 60%;
+    border:none;
+    padding-right:55px;
+    padding-top: 90px;
+    word-spacing: 2em;
+
+/* quotes formula */
+q {
+  quotes: "“" "”" "‘" "’";
+}
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES

@@ -1,0 +1,44 @@
+
+/**************
+Utility Class/
+
+
+html {
+ box-sizing: border-box;
+}
+​*, *​:before, *:after {
+ box-sizing: inherit;
+}
+
+
+**********
+Base styles /
+
+body{
+	margin: 20px;
+	fond-family: helvetica, arial,;
+	font-size: 14px; 
+	}
+
+
+/********
+Messages
+*********/
+
+#notification {
+    background-color: yellow;
+    border: solid 2px yellow;
+    padding: 5px 10px;
+} 
+
+.error {
+	 background: red;
+}
+
+.message{
+background: #ccc;
+border: solid 2px 10px;
+padding: 40px 10px;
+
+}
+
