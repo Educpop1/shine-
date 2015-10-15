@@ -1,0 +1,77 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+  overflow: auto;
+}
+
+header { 
+  background:black;
+  width: 100%
+}
+.start {
+     color: yellow;
+     text-align: left;
+     padding: 20px;
+
+}
+
+.links{
+  color: white;
+  margin: 10px;
+
+} 
+
+.links li {
+  display: inline-block;
+  word-spacing: 20%;
+  padding-left: 
+  padding-right: 10px;
+  padding-left:  10px;
+}
+
+.h2 {
+  color: black; 
+background color: gray;
+}
+
+.developers {
+  font-size: 30px;
+  font-weight: 50px; 
+}
+
+.designers { 
+font-size: 30px;
+  font-weight: 50px;
+}
+
+.intro {
+  background: gray;
+  width: 100%;
+  padding-top: 5px;
+  float: right;
+  width: 50%
+
+}
+
+.pitch {
+  background-color: yellow;
+
+  width: 100%;
+  padding: 10%;
+}
+
+.action {
+  background: lightblue;
+  width: 100%;
+  padding-top: 10%; 
+}
+
+footer {
+  background: blue;
+  width: 100%;
+  padding-top: 10%;
+
+}
