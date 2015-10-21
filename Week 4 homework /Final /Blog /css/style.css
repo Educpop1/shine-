@@ -276,7 +276,7 @@ footer p {
 @media screen and (max-width: 768px) {
 
 body{
-    background :green;
+    
     font-size:  1.0em;  /* 24px / 16px = 1.5em */
   }
 
@@ -289,6 +289,8 @@ body{
 
 .logo{ 
   font-size: 1.5em;  /* 48px / 16px = 3em */
+  margin-top: 31px;
+  padding-left: 10px
 }
 
 header .logo {
@@ -297,38 +299,53 @@ header .logo {
 
 header nav ul li a {
 font-size: 0.75em;
-margin-right: 12%;
+margin-right: 11%;
+display: none;
 }
 
-.container h2{ 
-  font-size: 1.9em;   /* reduced by from 3.0em to 1.9ems*/
-  margin-top: 30px; 
+
+h2, a { 
+  font-size: 0.75em;   /* reduced by from 3.0em to 1.9ems*/
+  margin-right: 44%;
 }
+
 
 h3 {
   font-size: 1.4em;   /* reduced by from 2.5em to 1.4ems*/
   padding-left: 3%;
 }
 
-.benefits p, .benefits ul {
-  font-size: 1.5em;
-  padding-left: 3%;
+.post p {
+  font-size: 1.0em;
+  margin-right: 281px;
+  padding-right: 18px; 
 }
 
+.readmore {
+margin-left: 213px;
+
+}
+
+/*
 .benefits ul {
   width: 60%;
-}
+}  */
 
 section .container p {
  float: none;
  width: auto;
 }
 
-
+/*
 blockquote {
 font-size: 1.5em;
 padding-right: 46%;
+}  */
+
+aside img {
+  display: none;
 }
+
 
 /*
 .hamburger-icon:before{ 
@@ -344,7 +361,9 @@ padding-right: 46%;
     background-color:#111;
     border-radius:5px;
     position:relative;
+    float: right;
 }
+
 
 .hamburger-icon:after, .hamburger-icon:before
 {

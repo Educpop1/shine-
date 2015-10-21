@@ -250,21 +250,17 @@ footer {
 }
 
 
-
-
     .tagline{
     	display: none;
     }
 
-    .blurb[
+    .blurb{
     width: 60%;
     float:none; 
+}
 
 
 
-
-
-    ]
 }
 
 
